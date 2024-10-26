@@ -4,7 +4,7 @@
   "upgradeCoinlimit": 3,
   "upgradeYespac": 4,
   "upgradeBoosts": true,
-  "countdown": 300,
+  "countdown": 10,
   "country_time": "en-US",
   "limit": 1000
 }
