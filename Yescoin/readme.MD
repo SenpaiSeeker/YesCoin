@@ -14,7 +14,8 @@ To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
 
--> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
+> Remember to download Nodejs version: **22.11.0** and NPM version: **10.9.0**
+> [Download Link](https://t.me/KeoAirDropFreeNe/257/1462)
 
 1. **Install Dependencies and Modules:**
 
@@ -43,7 +44,7 @@ To get started with the bot, follow these steps:
 }
 ```
 
-### 2. `datas.txt` 🗂️ -
+### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
 
 ```txt
 query_id.../user...
