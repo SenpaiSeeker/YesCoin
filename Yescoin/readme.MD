@@ -33,15 +33,18 @@ To get started with the bot, follow these steps:
 
 ```json
 {
-  "upgradeMultivalue": 10000,
-  "upgradeFillrate": 21231,
-  "upgradeCoinlimit": 3231,
-  "upgradeYespac": 41312, //how many times to upgrade
+  "upgradeMultivalue": 1,
+  "upgradeFillrate": 2,
+  "upgradeCoinlimit": 3,
+  "upgradeYespac": 4,
   "upgradeBoosts": true,
-  "limit": 21325, //number of accounts run 1 a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "countdown": 300,
+  "country_time": "en-US",
+  "limit": 1000,
+  "doTasks": true,
+  "delayEachAccount": [1, 81]
 }
+
 ```
 
 ### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
@@ -72,6 +75,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node 1`
+> To run the bot, use the following command: `cd yescoin-main/yescoin; node 1`
 
 🎇Enjoy!
