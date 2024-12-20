@@ -4,7 +4,9 @@
   "upgradeCoinlimit": 3,
   "upgradeYespac": 4,
   "upgradeBoosts": true,
-  "countdown": 30,
+  "countdown": 300,
   "country_time": "en-US",
-  "limit": 1000
+  "limit": 1000,
+  "doTasks": true,
+  "delayEachAccount": [1, 81]
 }
