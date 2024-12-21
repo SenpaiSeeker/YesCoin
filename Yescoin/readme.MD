@@ -14,7 +14,8 @@ To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
 
--> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
+> Remember to download Nodejs version: **22.11.0** and NPM version: **10.9.0**
+> [Download Link](https://t.me/KeoAirDropFreeNe/257/1462)
 
 1. **Install Dependencies and Modules:**
 
@@ -32,18 +33,21 @@ To get started with the bot, follow these steps:
 
 ```json
 {
-  "upgradeMultivalue": 10000,
-  "upgradeFillrate": 21231,
-  "upgradeCoinlimit": 3231,
-  "upgradeYespac": 41312, //how many times to upgrade
+  "upgradeMultivalue": 1,
+  "upgradeFillrate": 2,
+  "upgradeCoinlimit": 3,
+  "upgradeYespac": 4,
   "upgradeBoosts": true,
-  "limit": 21325, //number of accounts run 1 a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "countdown": 300,
+  "country_time": "en-US",
+  "limit": 1000,
+  "doTasks": true,
+  "delayEachAccount": [1, 81]
 }
+
 ```
 
-### 2. `datas.txt` 🗂️ -
+### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
 
 ```txt
 query_id.../user...
@@ -71,6 +75,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node 1`
+> To run the bot, use the following command: `cd yescoin-main/yescoin; node 1`
 
 🎇Enjoy!
