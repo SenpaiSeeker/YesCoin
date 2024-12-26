@@ -27,22 +27,6 @@ else
     MODULES_DIR="."
 fi
 
-create_default_configs() {
-    cat > configs.json << EOL
-{
-    "timeZone": "en-US",
-    "rotateProxy": false,
-    "skipInvalidProxy": false,
-    "proxyRotationInterval": 2,
-    "delayEachAccount": [5, 8],
-    "timeToRestartAllAccounts": 300,
-    "howManyAccountsRunInOneTime": 10,
-    "doTasks": true,
-    "playGames": true,
-    "referralCode": ""
-}
-EOL
-}
 
 check_configs() {
     if ! node -e "const cfg=require('./configs.json');if(typeof cfg.howManyAccountsRunInOneTime !== 'number' || cfg.howManyAccountsRunInOneTime < 1) throw new Error('Invalid config');" 2>/dev/null; then
@@ -55,7 +39,7 @@ check_configs() {
 while true; do
     clear
     echo "============================================================================"
-    echo "    name BOT SETUP AND RUN SCRIPT"
+    echo "    Yescoin BOT SETUP AND RUN SCRIPT"
     echo "============================================================================"
     echo
     echo "Current directory: $(pwd)"
@@ -83,8 +67,6 @@ while true; do
             print_yellow "Setting up configuration files..."
 
             if [ ! -f configs.json ]; then
-                create_default_configs
-                print_green "Created configs.json with default values"
             fi
 
             check_configs
@@ -115,7 +97,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            node bot
+            cd yescoin && node bot
             read -p "Press Enter to continue..."
             ;;
         4)
