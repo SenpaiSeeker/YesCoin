@@ -1,5 +1,5 @@
 @echo off
-title Yescoin Bot
+title Yescoin Bot by @MeoMunDep
 color 0A
 
 cd ..
@@ -14,7 +14,7 @@ if exist node_modules (
 :MENU
 cls
 echo =================================================================
-echo    Yescoin BOT SETUP AND RUN SCRIPT
+echo    Yescoin BOT SETUP AND RUN SCRIPT by @MeoMunDep
 echo =================================================================
 echo.
 echo Current directory: %CD%
